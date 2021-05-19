@@ -3,7 +3,7 @@ import './Navbar.css';
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-const Navbar = () => {
+const Navbar = ({OnClickBtn }) => {
     return (
         <nav className='navbar'>
             {/* Logo*/}
@@ -17,7 +17,7 @@ const Navbar = () => {
                         <i className='fas fa-shopping-cart'></i>
                         <span>
                             Cart
-                           <span className='nav-cart-badger'> 0</span>
+                           <span className='nav-cart-badge'> 0</span>
                         </span>
                     </Link>
                 </li>
@@ -28,7 +28,7 @@ const Navbar = () => {
                 </li>
             </ul>
             {/*hambuerger menu */}
-            <div className='hamburger-menu'>
+            <div className='hamburger-menu' onClick={OnClickBtn}>
                 <div></div>
                 <div></div>
                 <div></div>
