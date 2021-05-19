@@ -1,4 +1,4 @@
-import './ProductScree.css'
+import './ProductScreen.css'
 
 const ProductScree= ()=>{
     return(
