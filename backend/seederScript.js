@@ -2,7 +2,7 @@
 
  const productsData = require('./data/productsList');
  const connectDB = require("./config/db");
- const Product = require('./models/Product');
+ const Product = require('./models/ProductSchema');
 
  connectDB();
 
