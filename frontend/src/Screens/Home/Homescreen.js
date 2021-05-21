@@ -1,4 +1,5 @@
 import './HomeScreen.css';
+import Product from '../../components/Products/Products'
 
 const HomeScreen = ()=>{
     return(
@@ -6,7 +7,8 @@ const HomeScreen = ()=>{
          <h2 className='home-screen-title'>Latest products</h2>
 
          <div className='home-screen-products'>
-             <Product/>
+             home
+            
          </div>
      </div>
 
