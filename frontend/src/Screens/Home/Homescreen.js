@@ -7,7 +7,15 @@ const HomeScreen = ()=>{
          <h2 className='home-screen-title'>Latest products</h2>
 
          <div className='home-screen-products'>
-             home
+             <Product/>
+             <Product/>
+             <Product/>
+             <Product/>
+             <Product/>
+             <Product/>
+             <Product/>
+             <Product/>
+             <Product/>
             
          </div>
      </div>

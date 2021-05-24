@@ -52,61 +52,18 @@
     color: #f4f4f4;
 }
 
-/*
-@media (max-width: 1232px) {
-    .product {
-      width: 360px;
-    }
-  }
-  
-  @media (max-width: 1115px) {
-    .product {
-      width: 330px;
-    }
-  }
-  
-  @media (max-width: 1028px) {
-    .product {
-      width: 300px;
-    }
-  }
-  
-  @media (max-width: 950px) {
-    .product {
-      width: 400px;
-    }
-  }
-  
-  @media (max-width: 830px) {
-    .product {
-      width: 330px;
-    }
-  }
-  
-  @media (max-width: 700px) {
-    .product {
-      width: 290px;
-    }
-  }
-  
-  @media (max-width: 630px) {
-    .product {
-      width: 450px;
-    }
-  }
-  
   @media (max-width: 500px) {
     .product {
-      width: 350px;
+      width: 280px;
     }
   }
   
   @media (max-width: 400px) {
     .product {
-      width: 300px;
+      width: 220px;
     }
   }
 
-  */
+
   
 
