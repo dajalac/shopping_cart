@@ -1,0 +1,14 @@
+import'./CartItem.css';
+
+const CartItem = ()=>{
+    return(
+     <div className='cart-item'>
+       <div className='cart-item-image'>
+       <img src ="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"
+         alt=''/>
+       </div>
+     </div>
+    )
+};
+
+export default CartItem;
