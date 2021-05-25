@@ -8,6 +8,10 @@ const CartScreen = ()=>{
              <h2>Shopping Cart</h2>
 
              <CartItem/>
+             <CartItem/>
+             <CartItem/>
+             <CartItem/>
+             <CartItem/>
 
          </div>
          <div className='cart-screen-right'>
