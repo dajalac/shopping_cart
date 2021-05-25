@@ -10,7 +10,7 @@ const middleware = [thunk];
 
 const store = createStore (
     reducer,
-    composeWithDevTools(applyMiddleware(...middleware))
+    composeWithDevTools(applyMiddleware(...middleware)) /**composeWithDevTools gives you acess in chrome f12 */
 );
 
 export default store; 
