@@ -13,6 +13,7 @@ app.use(express.json());
 //middleware
 // redirects the htpp requests to productRoute
 ////This is the middleware function which will be called before any routes get hit
+///'/api/products' is the root defined by us. It is like restricting the middleware
 app.use('/api/products', productRoute);
 
 app.listen(process.env.PORT,()=>
