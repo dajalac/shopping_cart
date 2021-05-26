@@ -8,7 +8,7 @@ import{getProductDetailsReducer,getProductsReducer} from './reducers/ProductRedu
 const reducer = combineReducers({
     cart: cartReducer,
     getProducts: getProductsReducer,
-    getProductDetail: getProductDetailsReducer
+    getProductDetails: getProductDetailsReducer
 });
 
 const middleware = [thunk];

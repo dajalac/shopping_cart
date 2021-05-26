@@ -2,6 +2,9 @@ import * as actionTypes from "../constants/productConstants";
 import axios from "axios";
 
 export const getProducts = () => async (dispatch) => {
+
+  //dispatch is a function of the Redux store. You call store. 
+  //dispatch to dispatch an action. This is the only way to trigger a state change
   try {
     dispatch({ 
         type: actionTypes.GET_PRODUCTS_REQUEST 

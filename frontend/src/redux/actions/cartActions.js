@@ -5,6 +5,8 @@ export const addToCart = (id, qty) => async (dispatch, getState) => {
   const { data } = await axios.get(`/api/products/${id}`);
 
   //dispatch is used as a callback which gets invoked once some async action is complete
+  //dispatch is a function of the Redux store. You call store. 
+  //dispatch to dispatch an action. This is the only way to trigger a state change
   dispatch({
     type: actionTypes.ADD_TO_CART,
     payload: {
