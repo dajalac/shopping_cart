@@ -18,7 +18,7 @@ const Navbar = ({OnClickBtn }) => {
         <nav className='navbar'>
             {/* Logo*/}
             <div className='navbar-logo'>
-                <h2 Link to>GO Shopping</h2>
+                <h2>GO Shopping</h2>
             </div>
             {/*links*/}
             <ul className='navbar-link'>

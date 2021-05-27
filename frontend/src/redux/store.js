@@ -13,8 +13,20 @@ const reducer = combineReducers({
 
 const middleware = [thunk];
 
+//for the value of the cart be saved while refresh the screen
+const cartItemsInLocalStorage = localStorage.getItem("cart")
+  ? JSON.parse(localStorage.getItem("cart"))
+  : [];
+
+const INITIAL_STATE = {
+  cart: {
+    cartItems: cartItemsInLocalStorage,
+  },
+};
+
 const store = createStore (
     reducer,
+    INITIAL_STATE,
     composeWithDevTools(applyMiddleware(...middleware)) /**composeWithDevTools gives you acess in chrome f12 */
 );
 
